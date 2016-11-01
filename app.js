@@ -10,9 +10,6 @@ var webpackMiddleware = require("webpack-dev-middleware");
 var webpackHotMiddleware = require('webpack-hot-middleware');
 var config = require('./webpack.config.js');
 
-var index = require('./routes/index');
-var users = require('./routes/users');
-
 var app = express();
 
 const isDeveloping = process.env.NODE_ENV !== 'production';
